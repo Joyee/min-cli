@@ -1,0 +1,7 @@
+{
+  "include": ["lib", "bin"],
+  "compilerOptions": {
+    "strict": false,
+    "resolveJsonModule": true
+  }
+}
