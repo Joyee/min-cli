@@ -8,13 +8,12 @@
 ├─bin 
 │  ├─mvc.ts # mvc 全局命令
 ├─lib
-│  ├─generator # 各个功能的模板
-│  │  ├─babel # babel 模板
+│  ├─templates # 各个功能的模板
 │  │  ├─linter # eslint 模板
 │  │  ├─router # vue-router 模板
 │  │  ├─vue # vue 模板
 │  │  ├─pinia # pinia 模板
-│  │  └─vite # vite 模板
+│  │  └─base # base vite 模板
 │  ├─promptModules # 各个模块的交互提示语
 │  └─utils # 一系列工具函数
 │  ├─create.ts # create 命令处理函数
