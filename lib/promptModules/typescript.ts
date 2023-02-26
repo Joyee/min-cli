@@ -2,10 +2,10 @@ import PromptModuleAPI from '../PromptModuleAPI'
 
 export default (api: PromptModuleAPI) => {
   api.injectFeature({
-    name: 'needsRouter',
+    name: 'Typescript',
+    message: 'Add TypeScript?',
     type: 'confirm',
-    message: 'Add Vue Router for Single Page Application development?',
-    default: true,
-    value: 'router'
+    default: false,
+    value: 'typescript'
   })
 }
